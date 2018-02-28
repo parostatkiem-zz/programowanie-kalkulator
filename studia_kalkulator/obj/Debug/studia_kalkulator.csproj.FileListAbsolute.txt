@@ -1,0 +1,8 @@
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\bin\Debug\studia_kalkulator.exe
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\bin\Debug\studia_kalkulator.pdb
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\obj\Debug\studia_kalkulator.csprojResolveAssemblyReference.cache
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\obj\Debug\studia_kalkulator.MainForm.resources
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\obj\Debug\studia_kalkulator.Properties.Resources.resources
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\obj\Debug\studia_kalkulator.csproj.GenerateResource.Cache
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\obj\Debug\studia_kalkulator.exe
+c:\users\ciku720\documents\visual studio 2015\Projects\studia_kalkulator\studia_kalkulator\obj\Debug\studia_kalkulator.pdb
