@@ -181,6 +181,11 @@ namespace studia_kalkulator
                         solution = numbers[0] * numbers[1];
                         break;
                     case '➗':
+                        if(numbers[1]==0)
+                        {
+                            ThrowError();
+                            return;
+                        }
                         solution = numbers[0] / numbers[1];
                         break;
 
