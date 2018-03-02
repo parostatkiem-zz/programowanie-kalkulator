@@ -30,7 +30,7 @@ namespace studia_kalkulator
         private byte separatorsPlacedBeforeOperator = 0;
         private byte separatorsPlacedAfterOperator = 0;
        // private bool isOperatorPlaced = false;
-        private string outputValue = "0"; //glowny string z wartoscią wyjściową
+        private string outputValue = "0"; //glowny string z wartoscią wyjściową pokazywaną na ekranie
 
         #region PROPERTIES
         public string OutputValue
@@ -117,6 +117,10 @@ namespace studia_kalkulator
 
         public void TryAddDigit(char digit)
         {
+            if( usedOparator!=' ' && separatorsPlacedAfterOperator==0 && outputValue[outputValue.Length-1]=='0')
+            {
+                return; //zapobiega wpisaniu wielu 0 przed przecinkiem w drugiej liczbie
+            }
             if (OutputValue == "0") OutputValue = digit.ToString();
             else
                 OutputValue += digit;
