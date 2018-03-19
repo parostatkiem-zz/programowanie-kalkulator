@@ -25,14 +25,13 @@ namespace studia_kalkulator
         private void btn_Click(object sender, EventArgs e)
         {
             Button input = sender as Button;
-            if (input == null) return;
-
+            if (input == null || input.Text != "ON/OFF" && !kalkulator.IsOn) return; //kalkulator jest wylaczony, nie mozna nic wpisywac
+          
             if(input.Name=="btnSeparator")
             {
                 kalkulator.TryAddSeparator();
                 return;
             }
-            if (input.Text != "ON/OFF" && !kalkulator.IsOn) return; //kalkulator jest wylaczony, nie mozna nic wpisywac
             switch(input.Text)
             {
                 case "ON/OFF":
